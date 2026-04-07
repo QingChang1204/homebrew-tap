@@ -1,20 +1,20 @@
 class RubCli < Formula
   desc "Browser automation CLI built for AI agents"
   homepage "https://github.com/QingChang1204/rub"
-  version "0.1.2"
+  version "0.1.3"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/QingChang1204/rub/releases/download/v0.1.2/rub-cli-aarch64-apple-darwin.tar.xz"
-      sha256 "c65b8b8770eb4be6ff662a51f400cb77b08a6d9741401cbf059b5466a897e023"
+      url "https://github.com/QingChang1204/rub/releases/download/v0.1.3/rub-cli-aarch64-apple-darwin.tar.xz"
+      sha256 "d0980a0be2f76ebfe18b249c8e051f5bab88f4e1e8b3031102053903dd93aca6"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/QingChang1204/rub/releases/download/v0.1.2/rub-cli-x86_64-apple-darwin.tar.xz"
-      sha256 "42d82a2becb7bd2c4c001ddcc17a082d74a0a894a4e70302b3f6723b40e179fa"
+      url "https://github.com/QingChang1204/rub/releases/download/v0.1.3/rub-cli-x86_64-apple-darwin.tar.xz"
+      sha256 "2cc44c3bd43b016e9d174991514abcbcc8051e8d43f8eb403d51343f9c68d495"
     end
   end
   if OS.linux? && Hardware::CPU.intel?
-    url "https://github.com/QingChang1204/rub/releases/download/v0.1.2/rub-cli-x86_64-unknown-linux-gnu.tar.xz"
-    sha256 "d3e92fe595b1e35d83ad96843119203e357237fb2b9d5aa648366772c5fd6b4c"
+    url "https://github.com/QingChang1204/rub/releases/download/v0.1.3/rub-cli-x86_64-unknown-linux-gnu.tar.xz"
+    sha256 "f63757d4a65b1d379e449561efcd1d25ecbeff19bb219b364a83526550f3aa09"
   end
   license "MIT"
 
